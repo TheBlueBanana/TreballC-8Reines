@@ -1,0 +1,15 @@
+No hem pogut fer foto als enunciats, malgrat són molt semblants als de la recuperació de 2020 (hi ha una còpia a la carpeta)
+Tot i així us deixo un resum de cada enunciat:
+
+1. Corregeix el fitxer per que no tingui cap error de compilació [2pts]
+
+2. Modifica el fitxer per tal que faci els càlculs en una funció a part double simpson();
+i que retorni (b-a)/6 * (f(a) + 4f((a+b)/2) + f(b))
+per tal que l'assignació inicial sigui: integral = simpson(a, b);
+
+3. Fes que l'usuari decideixi a i b (amb la condició 0 <= a<b <= 2)
+
+4. Fes que la integral total es calculi com la suma de les integrals aproximades en els intervals [0, 0.5], [0.5, 1], [1, 1.5], [1.5, 2]
+
+5. Fes que la integral es calculi com una suma de n integrals corresponent a les n particions de l'interval [a, b].
+L'usuari ha de poder determinar a, b, i n i ha d'estar la assignació a la funció main.
